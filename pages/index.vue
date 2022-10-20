@@ -23,9 +23,9 @@
               <label for="checkboxRemember" class="form-label">Remember me</label>
           </div>
           <div class="buttonlogin-container">
-              <NuxtLink to="components/home.vue">
+            <NuxtLink to="/Home">
                 <button type="submit" class="button-login">LOGIN</button>
-              </NuxtLink>
+            </NuxtLink>
           </div>
      </div>
     </div>
@@ -41,6 +41,7 @@ export default {
 <style>
     .body {
         height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         border: 0;
@@ -115,6 +116,7 @@ export default {
         opacity: 0.6;
         transform: scale(1);
         transition: all .6s ease-in-out;
+        filter: brightness(60%);
     }
 
     .background-image:hover {
