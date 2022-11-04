@@ -12,7 +12,7 @@
             <img src="password.png" class="password-icon">
          <div class="username-container">
                 <label for="inputEmail" class="form-labeluser">Email</label>
-                <input id="inputEmail" class="form-control" type="email" >
+                <input id="inputEmail" class="form-control" type="email">
             </div>
             <div class="password-container">
                <label for="inputPassword" class="form-labelpass">Password</label>

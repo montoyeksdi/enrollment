@@ -1,5 +1,5 @@
 <template>
-    <h1>Contact Us at gmai.com</h1>
+    <h1>Contact Us @gmail.com</h1>
 </template>
 
 <script>
